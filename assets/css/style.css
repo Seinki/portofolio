@@ -3,8 +3,14 @@ section {
 }
 
 .btn {
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 24px;
+}
+
+.btn:hover {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
 }
 
 .navbar {
@@ -20,6 +26,25 @@ section {
     font-size: 42px;
 }
 
+.home .arrow img {
+    width: 50px;
+}
+
+#arrow {
+    animation: 2s upDown infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 
