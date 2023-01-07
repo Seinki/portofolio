@@ -25,16 +25,16 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#work">Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -45,21 +45,21 @@
 
     <!-- hero header -->
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-          <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+          <div class="col-12 col-md-8">
             <h3 class="fw-semibold">Hi, I am</h3>
             <h1 class="fw-bold">Seinki Anna Lesmana</h1>
             <p>I am IT Support & Junior Web Programming</p>
             <a class="btn" href="assets/images/myresume.pdf" download>My Resume</a>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
             <img class="img-thumbnail rounded-circle" src="assets/images/Pas_photo-box.png" alt="pas_photo">
           </div>
         </div>
-        <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-          <a class="text-decoration-none text-dark" href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+          <div class="text-dark">More Info</div>
           <img id="arrow" class="mt-2" src="assets/images/arrow.svg" alt="arrow icon">
-        </div>
+        </a>
     </section>
     <!-- hero header end -->
 
@@ -107,10 +107,10 @@
     <!-- Work -->
     <section id="work" class="work container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-md-6">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam deserunt vero, soluta, quaerat ullam ad minus eum officia eligendi in. Voluptatum labore corporis quod? Consequuntur eius, facere tempore quia id sapiente aliquam magnam in accusamus. Maiores, harum maxime doloribus, dignissimos eveniet consequuntur tempore quibusdam porro totam illum eos animi?</p>
         </div>
-        <div class="col work-img">
+        <div class="col-12 col-md-5 work-img">
           <div id="work-1" class="work-img-item">
             <img src="assets/images/work-1.png" alt="work1">
           </div>
@@ -128,25 +128,25 @@
     <!-- Contact -->
     <section id="contact" class="contact container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore ducimus sequi quae modi rem iusto. Non odit mollitia iure amet facere animi aperiam ut illo saepe doloremque veritatis aliquam, cum atque soluta neque qui nemo tempora aut odio possimus doloribus consectetur? Doloribus amet exercitationem suscipit deleniti ea necessitatibus commodi.</p>
           <div class="row">
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Facebook.svg" alt="facebook icon">
-              <p>Seinki Anna Lesmana</p>
+              <img class="w-25" src="assets/images/Facebook.svg" alt="facebook icon">
+              <p class="mb-0 ms-2">Seinki Anna Lesmana</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Instagram.svg" alt="instagram icon">
-              <p>@sal_seinki</p>
+              <img class="w-25" src="assets/images/Instagram.svg" alt="instagram icon">
+              <p class="mb-0 ms-2">@sal_seinki</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Twitter.svg" alt="twitter icon">
-              <p>@ArtSeinki</p>
+              <img class="w-25" src="assets/images/Twitter.svg" alt="twitter icon">
+              <p class="mb-0 ms-2">@ArtSeinki</p>
             </div>
           </div>
         </div>
         <!-- Form -->
-        <div class="col">
+        <div class="col-12 col-lg-5">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>
